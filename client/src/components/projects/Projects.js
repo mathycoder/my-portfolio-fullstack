@@ -9,14 +9,14 @@ class Projects extends Component {
     project: null
   }
 
-  // componentDidMount(){
-  //   const project = myProjects.find(proj => proj.id === 1)
-  //   this.setState({
-  //     projectId: 1,
-  //     project: project
-  //
-  //   })
-  // }
+  componentDidMount(){
+    const project = myProjects.find(proj => proj.id === 1)
+    this.setState({
+      projectId: 1,
+      project: project
+  
+    })
+  }
 
   handleIconClick = (proj) => {
     this.setState({

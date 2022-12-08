@@ -20,12 +20,12 @@ class Project extends Component {
       <div className={`project ${ opaque ? 'fade-in': ''}`}>
         <h1>{project.title}</h1>
         <h6>{project.titleDescription}</h6>
-        {project.liveLink ?
+        {/* {project.liveLink ?
           <div className="live-site-button">
             <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
               <button>{project.liveLinkMobile ? 'Visit Live Site (Mobile or Desktop)' : 'Visit Live Site (Desktop only)' }</button>
             </a>
-          </div> : ''}
+          </div> : ''} */}
         <div className="project-first-row">
           <div className="description-div">
             <p>{project.description}</p>
